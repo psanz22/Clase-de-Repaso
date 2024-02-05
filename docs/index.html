@@ -3,67 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    
-    <link rel="icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./assets/main-62015576.css">
+    <title>TITLE</title>
+   
+    <link rel="stylesheet" href="./assets/index-295b7eaa.css">
   </head>
 
   <body>
-    <div class="page">
-      <header class="page__header">
-  <img src="./images/logo-adalab.png" alt="Adalab">
-  <h1>Bienvenidos a Adalab</h1>
+    <div class="container">
+    <!-- 
+      Defino la estructura:
+      -header
+      -main (3 artículos)
+      -aside
+      -footer
+     -->
+  <header class="header">
+    <img class="header__logo" src="./images/logo-lorem.avif" alt="">
+    <h1 class="header__title">Título del blog</h1>
 </header>
+  <main class="main">
+    <article class="article">
+    <h2>título 1</h2>
+    <p> hola hola hola hola</p>
+</article>
+    <article class="article">
+    <h2>título 2</h2>
+    <p>lorem lorem lorem</p>
+</article>
+    <article class="article">
+    <h2>título 3</h2>
+    <p>jijijijijijijijijijiji</p>
+</article>
 
-      <main class="page__main">
-  <h2>Este es el starter kit de Adalab</h2>
-  <p>Lo usamos para aprender:</p>
-  <ul class="main__list">
-    <li>Sass</li>
-    <li>HTML partials</li>
-    <li>Gulp</li>
-    <li>y muchas cosas más</li>
-  </ul>
-  <p>Si quieres saber cúales son las rutas correctas para:</p>
-  <ul class="main__list">
-    <li>
-      una <code class="code">&lt;img /&gt;</code> mira el fichero
-      <code class="code">./src/html/partials/header.html</code>.
-    </li>
-    <li>
-      y para un <code class="code">background-image</code> mira el fichero
-      <code class="code">./src/html/scss/layout/_page.scss</code>.
-    </li>
-  </ul>
-  <p>
-    Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-    <code class="code">./src/html/index.html</code> y
-    <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-    enlaces:
-  </p>
-  <ul class="main__list">
-    <li>
-      <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-    </li>
-    <li>
-      <a class="{=$aClass}" href="./more-info.html">Más info del starter kit</a>
-
-    </li>
-  </ul>
 </main>
-
-      <footer class="page__footer">
-  <small>
-    &copy; Todos los derechos reservados
-    <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-  </small>
+  <aside class="aside">
+    <div class="author">
+        <img class="author__img" src="./images/perrito.jpg" alt="">
+   
+    
+    <h3>Autor</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi sapiente quam placeat optio, aliquam est nobis reiciendis aliquid, ut nemo et pariatur ducimus dicta, autem blanditiis fugiat incidunt esse delectus.</p>
+</div>
+<div class="lists">
+    <ul class="lists__sections">
+        <li>Sección 1</li>
+        <li>Sección 2</li>
+        <li>Sección 3</li>
+        <li>Sección 4</li>
+        <li>Sección 5</li>
+    </ul>
+    <ul class="lists__categories">
+        <li>Categoría 1</li>
+        <li>Categoría 2</li>
+        <li>Categoría 3</li>
+        <li>Categoría 4</li>
+        <li>Categoría 5</li>
+    </ul>
+</div>
+</aside>
+  <footer>
+    <p>&copy; 2019 - Título del blog</p>
 </footer>
 
-    </div>
-    <script src="./js/main.js"></script>
+</div>
   </body>
 </html>
