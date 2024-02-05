@@ -1,0 +1,23 @@
+.aside{
+    display:flex;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+}
+.author{
+    width: 50%;
+    background-color: antiquewhite;
+    &__img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+.lists{
+    padding: 20px;
+    &__sections {
+        margin-bottom: 10px;
+        
+    }
+}
